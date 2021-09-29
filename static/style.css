@@ -8,7 +8,12 @@ canvas {
 }
 
 #sketchDiv {
-    width: 500px;
-    height: 200px;
-    background-color: red;
+    position: fixed;
+    margin-top: 25px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+body {
+    background-color: rgb(78, 78, 78);
 }
